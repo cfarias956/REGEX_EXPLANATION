@@ -1,6 +1,6 @@
 # REGEX_EXPLAINED
 
-Introductory paragraph (replace this with your text)
+This REGEX (REGULAR EXPRESSION) explanation is being created to help users understand the sequence of special charaters used to verify a search term. REGEXs are patterns used to match character combinations in strings. When used in code, REGEX can find certain patterns of characters or replace a character or sequence within a string. They are also used to validate input data.
 
 ## Summary
 
