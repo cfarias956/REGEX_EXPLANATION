@@ -6,6 +6,8 @@ This REGEX (REGULAR EXPRESSION) explanation is being created to help users under
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
 ## Table of Contents
 
 - [Anchors](#anchors)
