@@ -28,6 +28,8 @@ Example:
 ### Anchors
 `/^`#?([a-f0-9]{6}|[a-f0-9]{3})`$/`
 
+The highlighted portion of the above example indicate what we call anchors. Anchors are used at the start and end of an expression.
+
 ### Quantifiers
 
 ### OR Operator
