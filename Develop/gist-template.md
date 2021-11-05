@@ -6,7 +6,7 @@ This REGEX (REGULAR EXPRESSION) explanation is being created to help users under
 
 I will be explaining the REGEX used to match Hex Values. Hex Values are used to determine color using the hexidecimal color code format. 
 
-Example:
+Example:    
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
