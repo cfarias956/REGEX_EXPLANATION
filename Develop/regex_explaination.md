@@ -38,8 +38,10 @@ The highlighted text of the above example indicate what we call quantifiers. Qua
 Hex Triplet Format (#000000 or #FFFFFF)<br />
 Shorthand Hex Format (#000 or #FFF)
 
-
 ### OR Operator
+/^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
+
+
 
 ### Character Classes
 
