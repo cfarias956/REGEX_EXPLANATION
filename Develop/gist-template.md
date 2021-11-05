@@ -4,7 +4,7 @@ This REGEX (REGULAR EXPRESSION) explanation is being created to help users under
 
 ## Summary
 
-I will be explaining the REGEX used to match Hex Values. Hex Values are used to determine color using the hexidecimal color code format. 
+I will be explaining the REGEX used to match Hex Values. Hex Values are used to determine color using the hexidecimal color code format. Hex Value REGEX have 2 types, Hex Triplet Format (#000000 or #FFFFFF) and Shorthand Hex Format (#000 or #FFF).
 
 Example:    
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
@@ -28,9 +28,15 @@ Example:
 ### Anchors
 `/^`#?([a-f0-9]{6}|[a-f0-9]{3})`$/`
 
-The highlighted portion of the above example indicate what we call anchors. Anchors are used at the start and end of an expression.
+The highlighted portion of the above example indicate what we call anchors. Anchors are used at the start and end of an expression NOT to match characters. ^ matches the position before the first charcater. $ matches the position after the last character.
 
 ### Quantifiers
+/^#`?`([a-f0-9]`{6}`|[a-f0-9]`{3}`)$/
+
+The highlighted text of the above example indicate what we call quantifiers. Quantifers are used to indicate how many characters are to be expected for a match to be found. In our example, the `?` idicates the expression to match 0 or 1 time. As mention in the summary above, we have 2 formats of Hex Values. In our Hex Value REGEX we have `{6}` and `{3}` this indicates that the length of the component preceding these quantifiers should be 6 and 3.
+
+Hex Triplet Format (#000000 or #FFFFFF) Shorthand Hex Format (#000 or #FFF)
+
 
 ### OR Operator
 
