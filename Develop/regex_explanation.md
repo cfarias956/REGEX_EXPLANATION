@@ -35,12 +35,17 @@ The highlighted portion of the above example indicate what we call anchors. Anch
 
 The highlighted text of the above example indicate what we call quantifiers. Quantifers are used to indicate how many characters are to be expected for a match to be found. In our example, the `?` idicates the expression to match 0 or 1 time. As mention in the summary above, we have 2 formats of Hex Values. In our Hex Value REGEX we have `{6}` and `{3}` this indicates that the length of the component preceding these quantifiers should be 6 and 3.
 
-Hex Triplet Format (#000000 or #FFFFFF)<br />
+Hex Triplet Format (#000000 or #FFFFFF)
+<br />
 Shorthand Hex Format (#000 or #FFF)
 
 ### OR Operator
 /^#?([a-f0-9]{6}`|`[a-f0-9]{3})$/
 
+The "or" operator in the above REGEX is defined using the `|` symbol. The or operator indicates that it could be either of the components that we are seperating witht the `|`. 
+
+An easier way to read the above REGEX would be: <br />
+ /^#?([a-f0-9]{6}`or`[a-f0-9]{3})$/ 
 
 
 ### Character Classes
