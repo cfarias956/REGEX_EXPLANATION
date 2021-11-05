@@ -4,8 +4,9 @@ This REGEX (REGULAR EXPRESSION) explanation is being created to help users under
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be explaining the REGEX used to match Hex Values. Hex Values are used to determine color using the hexidecimal color code format. 
 
+Example:
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
