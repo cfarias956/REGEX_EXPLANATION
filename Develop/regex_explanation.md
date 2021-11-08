@@ -47,8 +47,10 @@ The "or" operator in the above REGEX is defined using the `|` symbol. The or ope
 An easier way to read the above REGEX would be: <br />
  /^#?([a-f0-9]{6}`or`[a-f0-9]{3})$/ 
 
-
 ### Character Classes
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+Character Classes are a part of our REGEX to signify the type of characters to expect. In the above example, the character classes are set within brackets `[]`. Our example included 2 character classes, `[a-f0-9]` and `[a-f0-9]` which search for the same value. The values being `a-f` (searching for letter a-f) and `0-9` (searching for number 0-9).
 
 ### Flags
 
