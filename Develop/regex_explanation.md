@@ -84,10 +84,29 @@ REGEX, by default, will perform a greedy match, unless told otherwise by another
 
 ### Boundaries
 
+Not included in our example
+
+* `\b` - A position that bounds a word, or where a word starts or ends. It denotes a place between a word and non-word character, at the start and end of a string.
+* `\B` - Exact opposite of a word boundary, the negation of `\b` and will match any position a word boundary doesnt.
+* `*`Will match between a word and word character, as well as between a non-word and non-word character.
+
 ### Back-references
+
+Not included in our example
+
+When using Grouping (look above) you may Capture the Group, which is saved in memory for later use. Backreferencing is the name given to the action of using these matches. 
+Backreferencing is the refernce of a captured match, save in memory, by a captured group.
 
 ### Look-ahead and Look-behind
 
+Not included in our example.
+
+Look-ahead and Look-behind (lookaround) are `start and end` zero-length assertions [Anchors](#anchors) but they actually match characters, then ends the match, returning only the result: **Match or No Match**. They do not cosume characters in the string, but only assert wether a match is possible or not. Lookaround allows you to create regular expressions that are impossible to create without them, or that would get very longwinded without them.
+
+
 ## Author - Cristian Farias
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+A current student at the coding bootcamp at UT Austin.
+
+[Github Profile:] (https://github.com/cfarias956)
+
