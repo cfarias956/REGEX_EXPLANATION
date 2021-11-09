@@ -15,4 +15,4 @@ THEN I find a detailed explanation of what a specific component of the regex doe
 WHEN I reach the end of the tutorial<br />
 THEN I find a section about the author and a link to the author’s GitHub profile
 
-I have created a gist to help users better undersatnd Regular Expression Syntax.
+I have created a gist to help users better undersatnd Regular Expression Syntax. Explanation can be found in the Develop folder.
