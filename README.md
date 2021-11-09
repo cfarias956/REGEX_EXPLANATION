@@ -14,3 +14,5 @@ WHEN I read through each section of the tutorial<br />
 THEN I find a detailed explanation of what a specific component of the regex does<br />
 WHEN I reach the end of the tutorial<br />
 THEN I find a section about the author and a link to the author’s GitHub profile
+
+I have created a gist to help users better undersatnd Regular Expression Syntax.
