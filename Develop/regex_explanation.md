@@ -88,6 +88,6 @@ REGEX, by default, will perform a greedy match, unless told otherwise by another
 
 ### Look-ahead and Look-behind
 
-## Author
+## Author - Cristian Farias
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
